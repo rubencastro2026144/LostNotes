@@ -1,0 +1,37 @@
+/* =========================================================
+   LostNotes — CSS adicional (R07)
+   Onde colar: Aparência → Editor → Estilos → (⋮) → CSS adicional
+   Cópia guardada no repositório para a nota técnica.
+   ========================================================= */
+
+/* 1. Botão principal "Ver discos"
+   Seletor: classe própria .ln-botao (definida no bloco Botão,
+   em Avançado → Classes CSS adicionais).
+   Resultado: o botão sobe ligeiramente e escurece ao passar o rato. */
+.ln-botao .wp-block-button__link {
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.ln-botao .wp-block-button__link:hover {
+  transform: translateY(-3px);
+  background-color: #c9441c;
+}
+
+/* 2. Foco visível no teclado (R11)
+   Resultado: ao navegar com Tab, ligações e botões ficam
+   contornados a laranja, para se saber onde se está. */
+a:focus-visible,
+.wp-element-button:focus-visible {
+  outline: 3px solid #e8572a;
+  outline-offset: 3px;
+}
+
+/* 3. Ecrã pequeno (telemóvel)
+   Abaixo de 600px os botões ocupam a largura toda,
+   para serem mais fáceis de tocar com o dedo. */
+@media (max-width: 600px) {
+  .ln-botao,
+  .ln-botao .wp-block-button__link {
+    width: 100%;
+  }
+}
