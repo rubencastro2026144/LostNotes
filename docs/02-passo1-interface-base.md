@@ -25,7 +25,7 @@ Em **Páginas → Adicionar**, criar e **publicar**:
 | Contactos | `/contactos/` |
 | Novidades | `/novidades/` |
 
-> A página **Loja** já foi criada pelo WooCommerce. Confirma em **Páginas** qual é o endereço dela (deve ser `/loja/`). Se for diferente, avisa, porque os botões da página inicial apontam para `/loja/`.
+> A página **Loja** já foi criada pelo WooCommerce. O endereço real é `/shop/`, e o botão "Ver discos" da página inicial já aponta para aí.
 
 Apagar a "Página de exemplo" e o artigo "Olá, mundo!".
 

@@ -10,13 +10,14 @@ O site é construído no **editor do WordPress**. Este repositório guarda o pla
 |---|---|
 | `docs/01-planeamento.md` | Objetivo, público, mapa do site, identidade visual (R01) |
 | `docs/02-passo1-interface-base.md` | Guia do passo 1: páginas, estilos, menu, página inicial |
+| `docs/03-passo1-aplicado.md` | O que foi aplicado no site no passo 1, onde ver cada coisa e o que falta |
 | `blocos/` | Código de blocos para colar no **Editor de código** do WordPress |
 | `css/lostnotes.css` | CSS adicional (R07), colado em Estilos → CSS adicional |
 
 ## Progresso
 
 - [x] Planeamento inicial
-- [ ] Passo 1 — Interface base
+- [ ] Passo 1 — Interface base (aplicado no site; falta confirmar os blocos no editor, ver `docs/03-passo1-aplicado.md`)
 - [ ] Passo 2 — Produtos e loja (L01–L04)
 - [ ] Passo 3 — Template (R05) e padrão (R06)
 - [ ] Passo 4 — Conteúdos, artigos e imagens (R02, R12)
